@@ -1,0 +1,87 @@
+city,state_id,state_name,lat,lon,population
+New York,NY,New York,40.7128,-74.0060,8804190
+Los Angeles,CA,California,34.0522,-118.2437,3898747
+Chicago,IL,Illinois,41.8781,-87.6298,2746388
+Houston,TX,Texas,29.7604,-95.3698,2304580
+Phoenix,AZ,Arizona,33.4484,-112.0740,1608139
+Philadelphia,PA,Pennsylvania,39.9526,-75.1652,1584064
+San Antonio,TX,Texas,29.4241,-98.4936,1547253
+San Diego,CA,California,32.7157,-117.1611,1386932
+Dallas,TX,Texas,32.7767,-96.7970,1304379
+San Jose,CA,California,37.3382,-121.8863,1013240
+Austin,TX,Texas,30.2672,-97.7431,964177
+Jacksonville,FL,Florida,30.3322,-81.6557,949611
+Fort Worth,TX,Texas,32.7555,-97.3308,935508
+Columbus,OH,Ohio,39.9612,-82.9988,905748
+Charlotte,NC,North Carolina,35.2271,-80.8431,897720
+San Francisco,CA,California,37.7749,-122.4194,815201
+Indianapolis,IN,Indiana,39.7684,-86.1581,882039
+Seattle,WA,Washington,47.6062,-122.3321,737015
+Denver,CO,Colorado,39.7392,-104.9903,715522
+Washington,DC,District of Columbia,38.9072,-77.0369,712816
+Boston,MA,Massachusetts,42.3601,-71.0589,675647
+El Paso,TX,Texas,31.7619,-106.4850,678815
+Nashville,TN,Tennessee,36.1627,-86.7816,689447
+Detroit,MI,Michigan,42.3314,-83.0458,639111
+Oklahoma City,OK,Oklahoma,35.4676,-97.5164,681054
+Portland,OR,Oregon,45.5051,-122.6750,641903
+Las Vegas,NV,Nevada,36.1699,-115.1398,641903
+Memphis,TN,Tennessee,35.1495,-90.0490,633104
+Louisville,KY,Kentucky,38.2527,-85.7585,618733
+Baltimore,MD,Maryland,39.2904,-76.6122,576498
+Milwaukee,WI,Wisconsin,43.0389,-87.9065,569330
+Albuquerque,NM,New Mexico,35.0844,-106.6504,564559
+Tucson,AZ,Arizona,32.2226,-110.9747,542629
+Fresno,CA,California,36.7378,-119.7871,542107
+Mesa,AZ,Arizona,33.4152,-111.8315,504258
+Sacramento,CA,California,38.5816,-121.4944,525041
+Kansas City,MO,Missouri,39.0997,-94.5786,508090
+Atlanta,GA,Georgia,33.7490,-84.3880,498715
+Colorado Springs,CO,Colorado,38.8339,-104.8214,478961
+Miami,FL,Florida,25.7617,-80.1918,442241
+Raleigh,NC,North Carolina,35.7796,-78.6382,467665
+Omaha,NE,Nebraska,41.2565,-95.9345,478192
+Long Beach,CA,California,33.7701,-118.1937,456062
+Virginia Beach,VA,Virginia,36.8529,-75.9780,450189
+Oakland,CA,California,37.8044,-122.2712,433823
+Minneapolis,MN,Minnesota,44.9778,-93.2650,429606
+Tulsa,OK,Oklahoma,36.1539,-95.9928,413066
+Tampa,FL,Florida,27.9506,-82.4572,407599
+Arlington,TX,Texas,32.7357,-97.1081,394266
+New Orleans,LA,Louisiana,29.9511,-90.0715,384533
+Wichita,KS,Kansas,37.6872,-97.3301,395699
+Cleveland,OH,Ohio,41.4993,-81.6944,372624
+Bakersfield,CA,California,35.3733,-119.0187,403455
+Aurora,CO,Colorado,39.7294,-104.8319,386261
+Anaheim,CA,California,33.8366,-117.9143,346824
+Honolulu,HI,Hawaii,21.3069,-157.8583,350964
+Lexington,KY,Kentucky,38.0406,-84.5037,322570
+Stockton,CA,California,37.9577,-121.2908,320804
+Corpus Christi,TX,Texas,27.8006,-97.3964,317863
+Henderson,NV,Nevada,36.0395,-114.9817,317610
+Riverside,CA,California,33.9806,-117.3755,314998
+St. Louis,MO,Missouri,38.6270,-90.1994,301578
+Pittsburgh,PA,Pennsylvania,40.4406,-79.9959,302971
+Cincinnati,OH,Ohio,39.1031,-84.5120,309317
+Anchorage,AK,Alaska,61.2181,-149.9003,291247
+Greensboro,NC,North Carolina,36.0726,-79.7920,298263
+Plano,TX,Texas,33.0198,-96.6989,285494
+Lincoln,NE,Nebraska,40.8136,-96.7026,291082
+Orlando,FL,Florida,28.5383,-81.3792,287442
+Irvine,CA,California,33.6846,-117.8265,307670
+Durham,NC,North Carolina,35.9940,-78.8986,283506
+St. Paul,MN,Minnesota,44.9537,-93.0900,311527
+Jersey City,NJ,New Jersey,40.7178,-74.0431,292449
+Chula Vista,CA,California,32.6401,-117.0842,275487
+Buffalo,NY,New York,42.8864,-78.8784,278349
+Fort Wayne,IN,Indiana,41.0793,-85.1394,263886
+Chandler,AZ,Arizona,33.3062,-111.8413,275987
+St. Petersburg,FL,Florida,27.7676,-82.6403,258308
+Laredo,TX,Texas,27.5306,-99.4803,255205
+Madison,WI,Wisconsin,43.0731,-89.4012,269196
+Lubbock,TX,Texas,33.5779,-101.8552,260993
+Scottsdale,AZ,Arizona,33.4942,-111.9261,242753
+Reno,NV,Nevada,39.5296,-119.8138,264165
+Gilbert,AZ,Arizona,33.3528,-111.7890,250829
+Glendale,AZ,Arizona,33.5387,-112.1860,248325
+Boise,ID,Idaho,43.6150,-116.2023,240713

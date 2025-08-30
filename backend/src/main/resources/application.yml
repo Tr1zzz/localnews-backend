@@ -1,0 +1,68 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/local_news?currentSchema=local_news
+    username: local_news_user
+    password: local_news_pass
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 2
+      pool-name: LocalNewsHikari
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    open-in-view: false
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+        jdbc.time_zone: UTC
+
+  jackson:
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: false
+    time-zone: UTC
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "health,info"
+  endpoint:
+    health:
+      show-details: "when_authorized"
+
+logging:
+  level:
+    org.hibernate.SQL: off
+    org.hibernate.orm.jdbc.bind: off
+    com.zaxxer.hikari: INFO
+    org.postgresql: INFO
+
+app:
+  ingest:
+    topCities: 100
+    delayMsBetweenCalls: 200
+    local:
+      maxPerFeed: 2
+    global:
+      maxPerFeed: 8
+    templates:
+      googleCity: "https://news.google.com/rss/search?q=%s&hl=en-US&gl=US&ceid=US:en"
+
+  rss:
+    global: >
+      https://feeds.bbci.co.uk/news/world/rss.xml,
+      https://www.theguardian.com/world/rss,
+      https://www.npr.org/rss/rss.php?id=1004,
+      https://apnews.com/hub/apf-topnews?output=rss
+
+openai:
+  apiKey: ${OPENAI_API_KEY:}   # ОБЯЗАТЕЛЬНО задай переменную окружения OPENAI_API_KEY
+  model: gpt-4o-mini
+  timeoutSec: 30
